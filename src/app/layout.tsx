@@ -14,7 +14,7 @@ const hankenGrotesk = Hanken_Grotesk({
 
 export default function Layout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={hankenGrotesk.style} suppressHydrationWarning>
+    <html lang="en" className={hankenGrotesk.className} suppressHydrationWarning>
       <body className="flex min-h-screen flex-col">
         <RootProvider>{children}</RootProvider>
       </body>
