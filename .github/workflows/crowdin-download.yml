@@ -4,10 +4,9 @@ permissions:
   pull-requests: write
 
 on:
-  repository_dispatch:
-    types: 
-      - file-fully-translated
-      - file-fully-reviewed
+  schedule:
+    - cron: '0/30 * * * *'
+    
 jobs:
   download:
     runs-on: ubuntu-latest
