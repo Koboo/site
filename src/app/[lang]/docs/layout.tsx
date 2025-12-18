@@ -20,7 +20,7 @@ export default async function Layout({
         <DocsBanner />
         <DocsLayout
           tree={tree}
-          {...baseOptions(lang)}
+          {...baseOptions(lang, true)}
           githubUrl="https://github.com/HytaleModding/site"
         >
           {children}
