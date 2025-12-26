@@ -330,14 +330,14 @@ export default function HomePage() {
             <MarqueeFade side="right" className="w-12" />
           </Marquee>
 
-          <div className="mt-6 flex justify-center">
+          {/* <div className="mt-6 flex justify-center">
             <Button asChild>
               <Link href={params?.lang?.toString() + "/projects"}>
                 <ArrowUpRightIcon className="mr-2 h-4 w-4" />
                 View More Projects
               </Link>
             </Button>
-          </div>
+          </div> */}
         </div>
     </div>
   );
